@@ -1,0 +1,302 @@
+*{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 32px;
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 100;
+} 
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 0px;
+}
+
+.top-left {
+  float: left;
+  width: 300px;
+}
+
+.heart {
+  padding: 0 15px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.header {
+  background-image: url(images/city-scape.svg); 
+  margin: 0;
+}
+
+.search-form {
+  float: left;
+  margin: 7px 0px;
+  width: 70%; 
+}
+
+.search {
+  float: left;
+  height: 50px;
+  width: 90%;
+  border: 0.1px solid rgb(94, 110, 119);
+  border-radius: 0;
+  padding: 0px 0px 0px 20px;
+  color: gray;
+  background-color: rgb(31, 82, 111);
+  font-size: 16px;
+}
+
+.search-button { 
+  float: left;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(31, 82, 111);
+  border: 0.1px solid rgb(94, 110, 119);
+  border-radius: 0;
+}
+
+.npm-logo {
+  height: 50px;
+  padding: 8px 10px 4px 10px;
+}
+
+.no-bullets {
+  margin: 0px;
+  list-style-type: none;
+}
+
+.header-links {
+  float: right;
+  padding-top: 22px;
+  padding-right: 10px;
+  font-size: 16px;
+  color: rgb(239, 244, 247);
+  font-weight: 100;
+}
+
+.clear-link {
+  text-decoration: none;
+  color: rgb(239, 244, 247);
+  font-weight: 100;
+}
+
+.bear-logo {
+  height: 50px;
+  padding: 0px 15px 0px 2.5px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(239, 244, 247);
+  font-weight: 100;
+}
+
+.header-content { 
+  float: left;
+  width: 550px;
+  margin: 0 auto auto 150px;
+}
+
+.white-body-text {
+  color: rgb(239, 244, 247);
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.signup-btn {
+  background-color: rgb(239, 137, 41);
+  padding: 10px 20px;
+  border-style: none;
+  border-radius: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: rgb(239, 244, 247);
+  display: block;
+  margin: 30px 0 0 0;
+}
+
+.header-padding {
+  padding: 0 0 100px 0;
+}
+
+.orgs {
+  margin: 0 auto;
+  background-color: rgb(39, 53, 71);
+  color: white;
+  padding: 80px 0 80px 0;
+}
+
+.collab {
+  float: left;
+  width: 500px;
+  margin: 30px auto auto 150px;
+}
+
+.powerful {
+  float: right;
+  width: 450px;
+  margin: auto 150px auto auto;
+}
+
+.orgs-btn {
+  background-color: rgb(222, 73, 55);
+  padding: 10px 20px;
+  border-style: none;
+  border-radius: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: rgb(239, 244, 247);
+  display: block;
+  margin: 30px 0 0 0;
+}
+
+.learn-link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*Need to figure out how to get the ul bullet points to left align with the headings and button*/
+.list-text {
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(239, 244, 247);
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 2.5em;
+}
+
+.what-is {
+  background-image: url(images/forklift.svg); 
+  margin: 0 auto;
+  padding: 0;
+}
+
+.whatis-content { 
+  float: left;
+  width: 350px;
+  margin: 80px auto auto 150px;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  color: rgb(239, 244, 247);
+  font-weight: 100;
+}
+
+.white-body-text2 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(239, 244, 247);
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.whatis-padding {
+  padding: 0 0 200px 0;
+}
+
+.install-btn {
+  background-color: rgb(76, 76, 76);
+  padding: 10px 20px;
+  border-style: none;
+  border-radius: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: rgb(239, 244, 247);
+  display: block;
+  margin: 30px 0 0 0;
+}
+
+.what-can {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+
+.center-img {
+  width: 40%;
+  margin: 0 auto;
+  padding: 0 0 0 90px;
+}
+
+.darkh2 {
+  color: rgb(83, 88, 98);
+  text-align: center;
+}
+
+h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: rgb(83, 88, 98);
+  font-weight: 100;
+  text-align: center;
+  padding: 0px; 
+}
+
+.dark-body-text {
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(135, 145, 156);
+  font-weight: lighter;
+  font-size: 16px;
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+
+.red-link {
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
+
+
+
